@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ecf0f1; /* Nouvelle couleur de fond qui s'harmonise */
+    color: #333; /* Nouvelle couleur de texte */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+section {
+    padding: 20px;
+}
+
+.formations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.formation {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 45%;
+    background-color: #fff;
+    color: #333;
+    box-sizing: border-box;
+}
+
+/* Ajout du nouveau CSS pour les formations */
+.license-bg {
+    background-color: #3498db;
+}
+
+.master-bg {
+    background-color: #e74c3c;
+}
+
+.professional-bg {
+    background-color: #2ecc71;
+}
+
+.certification-bg {
+    background-color: #f39c12;
+}
+
+/* Ajout pour les médias */
+@media screen and (max-width: 600px) {
+    .formation {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .formation {
+        width: 48%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .formation {
+        width: 48%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .formation {
+        width: 48%;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

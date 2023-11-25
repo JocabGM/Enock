@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ecf0f1; /* Couleur de fond de la page (gris clair) */
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.formations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.formation {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 45%;
+    background-color: #fff; /* Couleur de fond des formations */
+    color: #333;
+    box-sizing: border-box;
+}
+
+/* Couleurs spécifiques aux formations */
+.license-bg {
+    background-color: #3498db; /* Couleur spécifique à la Licence */
+}
+
+.master-bg {
+    background-color: #e74c3c; /* Couleur spécifique au Master */
+}
+
+.professional-bg {
+    background-color: #2ecc71; /* Couleur spécifique à la Formation Continue */
+}
+
+.certification-bg {
+    background-color: #f39c12; /* Couleur spécifique à la Certification */
+}
+
+/* Débouchés Backgrounds */
+.debouches-bg {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 45%;
+    background-color: #fff; /* Couleur de fond des débouchés */
+    color: #333;
+    box-sizing: border-box;
+}
+
+/* Couleurs spécifiques aux débouchés */
+.license-debouches-bg {
+    background-color: #f1c40f; /* Couleur spécifique aux débouchés de la Licence */
+}
+
+.master-debouches-bg {
+    background-color: #3498db; /* Couleur spécifique aux débouchés du Master */
+}
+
+.professional-debouches-bg {
+    background-color: #e74c3c; /* Couleur spécifique aux débouchés de la Formation Continue */
+}
+
+.certification-debouches-bg {
+    background-color: #2ecc71; /* Couleur spécifique aux débouchés de la Certification */
+}
+
+/* Ajout pour les médias */
+@media screen and (max-width: 600px) {
+    .formation,
+    .debouches-bg {
+        width: 100%;
+    }
+}
